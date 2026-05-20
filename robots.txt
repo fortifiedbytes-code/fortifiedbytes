@@ -1,0 +1,33 @@
+User-agent: *
+
+# Allow Full Website Access
+Allow: /
+
+# Sitemap
+Sitemap: https://yourdomain.com/sitemap.xml
+
+# Block Low Value Pages
+Disallow: /admin/
+Disallow: /login/
+Disallow: /dashboard/
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /private/
+
+# Allow SEO Important Files
+Allow: /assets/css/
+Allow: /assets/js/
+Allow: /images/
+
+# Improve Crawl Efficiency
+Crawl-delay: 1
+
+# Block Spam Bots
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
